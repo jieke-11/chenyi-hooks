@@ -56,6 +56,10 @@ export default defineConfig({
         },
       ],
     },
+    footer: {
+      copyright: 'Copyright © 2025 Chenyi', // 替换版权文本
+      poweredBy: false, // 隐藏 "Powered by dumi"
+    },
   },
 
   resolve: {
