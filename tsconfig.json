@@ -4,26 +4,13 @@
     "declaration": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "typeRoots": [
-      "node_modules/@types"
-    ],
     "jsx": "react",
     "baseUrl": "./",
     "paths": {
-      "@@/*": [
-        ".dumi/tmp/*"
-      ],
-      "chenyi-hooks": [
-        "src"
-      ],
-      "chenyi-hooks/*": [
-        "src/*",
-        "*"
-      ]
+      "@@/*": [".dumi/tmp/*"],
+      "chenyi-hooks": ["src"],
+      "chenyi-hooks/*": ["src/*", "*"]
     }
   },
-  "include": [
-    ".dumirc.ts",
-    "src/**/*"
-  ]
+  "include": [".dumirc.ts", "src/**/*"]
 }
