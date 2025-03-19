@@ -48,9 +48,7 @@ export default ExampleComponent;
 
 详细的 API 文档和使用指南请访问 [官方文档](#)。
 
-## 贡献
 
-欢迎贡献代码！请阅读我们的贡献指南以了解如何参与。
 
 感谢你选择 Chenyi Hooks，希望它能帮助你更高效地开发应用！
 
