@@ -18,4 +18,13 @@ export default defineConfig({
   },
   base: '/chenyi-hooks/',
   publicPath: '/chenyi-hooks/',
+  resolve: {
+    docDirs: ['docs'],
+    atomDirs: [
+      {
+        type: 'component',
+        dir: 'src',
+      },
+    ],
+  },
 });
