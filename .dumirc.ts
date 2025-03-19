@@ -11,10 +11,11 @@ export default defineConfig({
       },
       {
         title: 'hooks',
-        link: '/components/foo'
-      }
+        link: '/components/foo',
+      },
     ],
     //To Do 侧边栏，hooks分类
-
   },
+  base: '/chenyi-hooks/',
+  publicPath: '/chenyi-hooks/',
 });

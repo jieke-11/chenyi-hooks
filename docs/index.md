@@ -1,22 +1,20 @@
----
-hero:
-  title: library
-  description: \
-  actions:
-    - text: Hello
-      link: /
-    - text: World
-      link: /
-features:
-  - title: Hello
-    emoji: 💎
-    description: Put hello description here
-  - title: World
-    emoji: 🌈
-    description: Put world description here
-  - title: '!'
-    emoji: 🚀
-    description: Put ! description here
----
+# chenyi-hooks
 
-chenyi-hooks
+基于 React 18+设计的高性能业务 Hook 集合，助力开发者提升 30%+开发效率。
+
+## 🌟 核心特性
+
+| 特性            | 说明                                                               |
+| --------------- | ------------------------------------------------------------------ |
+| 💨 **高性能**   | 零依赖轻量化设计，通过`useMemo`/`useCallback`优化内存使用          |
+| 🛡️ **类型安全** | 100% TypeScript 开发，提供完整类型定义与泛型支持                   |
+| 📖 **文档友好** | 包含详细使用示例与 API 说明，支持 Dumi 自动生成可交互文档          |
+| 🔄 **生态兼容** | 兼容 React 生态主流工具链（Vite/Webpack），支持 SSR 与静态站点生成 |
+
+## 🚀 快速开始
+
+```bash
+# 安装
+npm install chenyi-hooks
+yarn add chenyi-hooks
+```
