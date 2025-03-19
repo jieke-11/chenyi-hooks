@@ -11,6 +11,7 @@
   "scripts": {
     "build": "father build",
     "build:watch": "father dev",
+    "deploy:hooks": "npm run build && npm run docs:build",
     "dev": "dumi dev",
     "docs:build": "dumi build",
     "docs:preview": "dumi preview",

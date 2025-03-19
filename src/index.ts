@@ -1,4 +1,3 @@
-export { default as Foo } from './Foo';
 import { createUpdateEffect } from './createUpdateEffect';
 import useBoolean from './useBoolean';
 import useDebounce from './useDebounce';
@@ -22,27 +21,25 @@ import useUnmountedRef from './useUnmountedRef';
 import useUpdateEffect from './useUpdateEffect';
 
 export {
-    createUpdateEffect,
-    useBoolean,
-    useDebounce,
-    useDebounceFn,
-    useGetState,
-    useLatest,
-    useLocalStorageState,
-    useMap,
-    useMemoizedFn,
-    usePrevious,
-    useResetState,
-    useSafeState,
-    useSessionStorageState,
-    useSet,
-    useSetState,
-    useThrottle,
-    useThrottleFn,
-    useToggle,
-    useUnmount,
-    useUnmountedRef,
-    useUpdateEffect,
+  createUpdateEffect,
+  useBoolean,
+  useDebounce,
+  useDebounceFn,
+  useGetState,
+  useLatest,
+  useLocalStorageState,
+  useMap,
+  useMemoizedFn,
+  usePrevious,
+  useResetState,
+  useSafeState,
+  useSessionStorageState,
+  useSet,
+  useSetState,
+  useThrottle,
+  useThrottleFn,
+  useToggle,
+  useUnmount,
+  useUnmountedRef,
+  useUpdateEffect,
 };
-
-
