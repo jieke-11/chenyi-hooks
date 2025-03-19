@@ -48,8 +48,6 @@ export default ExampleComponent;
 
 详细的 API 文档和使用指南请访问 [官方文档](#)。
 
-
-
 感谢你选择 Chenyi Hooks，希望它能帮助你更高效地开发应用！
 
 ```
