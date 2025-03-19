@@ -2,6 +2,7 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   outputPath: 'docs-dist',
+  history: { type: 'browser' },
   themeConfig: {
     name: 'chenyi-hooks',
     nav: [
@@ -21,21 +22,7 @@ export default defineConfig({
           children: [
             { title: 'useBoolean', link: '/components/use-boolean' },
             { title: 'useGetState', link: '/components/use-get-state' },
-            { title: 'useSetState', link: '/components/use-set-state' },
             { title: 'useToggle', link: '/components/use-toggle' },
-          ],
-        },
-        {
-          title: '存储',
-          children: [
-            {
-              title: 'useLocalStorageState',
-              link: '/components/use-local-storage-state',
-            },
-            {
-              title: 'useSessionStorageState',
-              link: '/components/use-session-storage-state',
-            },
           ],
         },
         {
@@ -59,19 +46,17 @@ export default defineConfig({
           title: '工具',
           children: [
             { title: 'useLatest', link: '/components/use-latest' },
-            { title: 'useMap', link: '/components/use-map' },
             { title: 'useMemoizedFn', link: '/components/use-memoized-fn' },
             { title: 'usePrevious', link: '/components/use-previous' },
             { title: 'useResetState', link: '/components/use-reset-state' },
-            { title: 'useSafeState', link: '/components/use-safe-state' },
             { title: 'useSet', link: '/components/use-set' },
           ],
         },
       ],
     },
   },
-  base: '/chenyi-hooks/',
-  publicPath: '/chenyi-hooks/',
+  base: '/',
+  publicPath: '/',
   resolve: {
     docDirs: ['docs'],
     atomDirs: [

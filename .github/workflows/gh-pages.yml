@@ -18,10 +18,12 @@ jobs:
         run: npm install
       - name: Build with dumi
         # 文档编译命令，如果是 react 模板需要修改为 npm run docs:build
-        run: npm run deploy:hooks
+        run: npm run docs:build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./docs-dist
+          force_orphan: true  # 清理历史文件
+          commit_message: ${{ github.event.head_commit.message }}

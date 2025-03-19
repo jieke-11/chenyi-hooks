@@ -1,3 +1,12 @@
 {
-  "extends": "@umijs/lint/dist/config/stylelint"
+  "extends": "@umijs/lint/dist/config/stylelint",
+  "ignoreFiles": ["docs-dist/**/*.css"],
+  "rules": {
+    "declaration-block-single-line-max-declarations": null,
+    "selector-class-pattern": null,
+    "no-duplicate-selectors": null,
+    "declaration-block-no-redundant-longhand-properties": null,
+    "plugin/declaration-block-no-ignored-properties": null,
+    "function-url-quotes": null
+  }
 }
