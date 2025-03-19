@@ -2,6 +2,8 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   outputPath: 'docs-dist',
+  base: '/chenyi-hooks/',
+  publicPath: '/chenyi-hooks/',
   history: { type: 'browser' },
   themeConfig: {
     name: 'chenyi-hooks',
@@ -55,8 +57,7 @@ export default defineConfig({
       ],
     },
   },
-  base: '/',
-  publicPath: '/',
+
   resolve: {
     docDirs: ['docs'],
     atomDirs: [
