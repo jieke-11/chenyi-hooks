@@ -2,6 +2,7 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   outputPath: 'docs-dist',
+  history: { type: 'hash' },
   themeConfig: {
     name: 'chenyi-hooks',
     nav: [
